@@ -1,0 +1,11 @@
+[package]
+name = "musebotai"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "devnet" }
+# NftProtocol = { git = "https://github.com/Origin-Byte/nft-protocol.git", rev = "7a19d30aa84faa335d722832f869c4f08a8c487a" }
+
+[addresses]
+musebotai =  "0x0"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"

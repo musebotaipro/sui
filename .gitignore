@@ -1,0 +1,5 @@
+build/
+.sui
+0x*
+*.json
+.*.txt
